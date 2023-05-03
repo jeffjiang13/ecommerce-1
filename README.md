@@ -9,19 +9,19 @@
 <h1 align="center">WondrShop</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/jeffjiang13/ecommerce-app-2023?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/jeffjiang13/ecommerce-1?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/jeffjiang13/ecommerce-app-2023?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/jeffjiang13/ecommerce-1?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jeffjiang13/ecommerce-app-2023?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jeffjiang13/ecommerce-1?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/jeffjiang13/ecommerce-app-2023?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/jeffjiang13/ecommerce-1?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/jeffjiang13/ecommerce-app-2023?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/jeffjiang13/ecommerce-1?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/jeffjiang13/ecommerce-app-2023?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/jeffjiang13/ecommerce-1?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/jeffjiang13/ecommerce-app-2023?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/jeffjiang13/ecommerce-1?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-Describe your project
+This e-commerce project is a full-stack web application that provides an intuitive and user-friendly platform for customers to browse, search, and purchase various products. The platform offers a wide range of features, including user authentication, product catalog, shopping cart, wishlists, secure payment processing, and order management. Built using MongoDB, Express, React, and Node.js (MERN stack), the application also integrates with PayPal Developers and Braintree to ensure a seamless and secure online shopping experience.
 
 ## :sparkles: Features ##
 
