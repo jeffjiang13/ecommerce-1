@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* //navbar css */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+}
+
+.search-form {
+  margin-right: 30px;
+  margin-top: 4px;
+  position: relative;
+  display: inline-block;
+}
+.search-form input {
+  border: none;
+  border-radius: 0;
+  padding-right: 80px; /* Adjust based on the width of the search button */
+
+}
+.search-form button {
+  margin-right: 8px;
+
+  background-color: #000000;
+  border-radius: 0;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.btn {
+  border-radius: 50px;
+}
+/* =============================
+==========footer============= */
+
+.footer {
+  color: white;
+  padding: 25px;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+/* ========================================= */
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+.cat-btn {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #000000;
+
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cat-btn:hover {
+  background-color: #007BFF;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cat-btn:focus {
+  outline: none;
+}
+
+/* ================
+====dashboard
+=================== */
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}
+
+/* Add the following styles to CartStyles.css */
+.cart-item-card {
+  min-height: 300px; /* Adjust card height */
+  margin-bottom: 15px; /* Add some space between cards */
+}
+
+/* Update the cart-item-image class in CartStyles.css */
+.cart-item-image {
+  height: auto;
+  max-height: 280px; /* Use max-height instead of min-height */
+  object-fit: contain;
+  width: 100%;
+}
+.price-bold {
+  font-weight: bold;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex: 1;
+}
+
+.card-footer-custom {
+  margin-top: auto;
+}
+.card-title-custom {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-img-custom {
+  object-fit: cover;
+  height: 300px;
+}
+/* .title {
+  margin-right:20px;
+} */
+/* Add this to your Homepage.css file */
+
+.carousel-image {
+  height: 500px;
+  object-fit: over;
+  width: 500%;
+}
+
+.carousel-container {
+  margin-top: 60px;
+}
+/* Mobile styles */
+@media (max-width: 767px) {
+  .carousel-image {
+    height: 250px;
+  }
+
+  .carousel-container {
+    margin-top: 55px;
+  }
+}
