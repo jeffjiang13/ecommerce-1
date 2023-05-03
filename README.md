@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-This e-commerce project is a full-stack web application that provides an intuitive and user-friendly platform for customers to browse, search, and purchase various products. The platform offers a wide range of features, including user authentication, product catalog, shopping cart, wishlists, secure payment processing, and order management. Built using MongoDB, Express, React, and Node.js (MERN stack), the application also integrates with PayPal Developers and Braintree to ensure a seamless and secure online shopping experience.
+This e-commerce project is a full-stack web application that provides an intuitive and user-friendly platform for customers to browse, search, and purchase various products. The platform offers a wide range of features, including user authentication, product catalog, shopping cart, secure payment processing, and order management. Built using MongoDB, Express, React, and Node.js (MERN stack), the application also integrates with PayPal Developers and Braintree to ensure a seamless and secure online shopping experience.
 
 ## :sparkles: Features ##
 
@@ -103,11 +103,15 @@ npm install
 
 Create a `.env` file in the directory with the following variables:
 
-MONGODB_URI=your_mongodb_connection_string
-PAYPAL_CLIENT_ID=your_paypal_client_id
-BRAINTREE_MERCHANT_ID=your_braintree_merchant_id
-BRAINTREE_PUBLIC_KEY=your_braintree_public_key
-BRAINTREE_PRIVATE_KEY=your_braintree_private_key
+- MONGODB_URI=your_mongodb_connection_string
+
+- PAYPAL_CLIENT_ID=your_paypal_client_id
+
+- BRAINTREE_MERCHANT_ID=your_braintree_merchant_id
+
+- BRAINTREE_PUBLIC_KEY=your_braintree_public_key
+
+- BRAINTREE_PRIVATE_KEY=your_braintree_private_key
 
 4. Start the development servers:
 
