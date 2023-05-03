@@ -1,9 +1,9 @@
 <div align="center" id="top">
-  <img src="./.github/app.gif" alt="Ecommerce App 2023" />
+  <img src="./client/public/images/banner1.jpg" alt="Ecommerce App 2023" />
 
   &#xa0;
 
-  <!-- <a href="https://ecommerceapp2023.netlify.app">Demo</a> -->
+  <a href="https://jj-ecommerce-1.cyclic.app">Demo</a>
 </div>
 
 <h1 align="center">WondrShop</h1>
@@ -50,21 +50,63 @@ Describe your project
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Feature 1; sign in and register
+:heavy_check_mark: Feature 2; admin panel
+:heavy_check_mark: Feature 3; user panel/profile
+:heavy_check_mark: Feature 4; admin create product page
+:heavy_check_mark: Feature 5; Paypal and credit/debit card payment methods
+:heavy_check_mark: Feature 6; product search bar and product category filter
+
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
+
 - [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
+- [Express](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
+- [React](https://reactjs.org/)
+- [PayPal Developers](https://developer.paypal.com/)
+- [Braintree](https://www.braintreepayments.com/)
 
 ## :white_check_mark: Requirements ##
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
+## Prerequisites
+
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/)
+- [MongoDB Atlas Account](https://www.mongodb.com/cloud/atlas) (or a local MongoDB instance)
+- [PayPal Developer Account](https://developer.paypal.com/)
+- [Braintree Account](https://www.braintreepayments.com/)
+
+## Installation
+
+1. Clone the repository:
+
+2. Install dependencies for both the frontend and backend:
+
+cd your-repo-folder/client
+npm install
+cd ../server
+npm install
+
+3. Set up environment variables:
+
+Create a `.env` file in the directory with the following variables:
+
+MONGODB_URI=your_mongodb_connection_string
+PAYPAL_CLIENT_ID=your_paypal_client_id
+BRAINTREE_MERCHANT_ID=your_braintree_merchant_id
+BRAINTREE_PUBLIC_KEY=your_braintree_public_key
+BRAINTREE_PRIVATE_KEY=your_braintree_private_key
+
+4. Start the development servers:
+
+In the `server` directory, start the backend server:
 
 
 
