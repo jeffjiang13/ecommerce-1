@@ -28,6 +28,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
+app.use(express.static(Path.join(__dirname, "./client/build")));
 
 //routes
 app.use("/api/v1/auth", authRoutes);
@@ -44,9 +45,12 @@ app.use((err, req, res, next) => {
 });
 
 //rest api
-app.get("/", (req, res) => {
-  res.send("<h1>Welcome to WondrShop</h1>");
-});
+// app.get("/", (req, res) => {
+//   res.send("<h1>Welcome to WondrShop</h1>");
+// });
+app.use("*", function(req, res){
+  res.sendFile(Path.join(__dirname, "./client/build/index.html"));
+})
 
 //PORT
 const PORT = process.env.PORT || 8080;
