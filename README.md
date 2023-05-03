@@ -51,10 +51,15 @@ Describe your project
 ## :sparkles: Features ##
 
 :heavy_check_mark: Feature 1; sign in and register
+
 :heavy_check_mark: Feature 2; admin panel
+
 :heavy_check_mark: Feature 3; user panel/profile
+
 :heavy_check_mark: Feature 4; admin create product page
+
 :heavy_check_mark: Feature 5; Paypal and credit/debit card payment methods
+
 :heavy_check_mark: Feature 6; product search bar and product category filter
 
 
